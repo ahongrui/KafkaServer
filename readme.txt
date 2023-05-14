@@ -1,0 +1,2 @@
+1、实现了kafka服务端接受数据的功能，支持kerberos认证，实现的kafka协议包括：ApiVersion、InitProducerID、Metadata、Produce、SaslAutherticate、SaslHandshake
+2、由于kerberos认证，需要依赖如下两个开源库：cyrus-sasl-gssapi、krb5-libs
